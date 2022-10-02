@@ -9,7 +9,11 @@ TextStyle titleFont = GoogleFonts.questrial(
 TextStyle subtitleFont = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.normal,
-  color: const Color(0xff000000),
+);
+
+TextStyle bodyFont = GoogleFonts.poppins(
+  fontSize: 15,
+  fontWeight: FontWeight.normal,
 );
 
 TextStyle semiboldFont = GoogleFonts.poppins(
