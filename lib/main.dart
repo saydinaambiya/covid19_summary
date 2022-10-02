@@ -1,3 +1,4 @@
+import 'package:covid19_app/screens/onboarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,27 +13,6 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: OnboardingPage(),
-    );
-  }
-}
-
-class OnboardingPage extends StatelessWidget {
-  const OnboardingPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    final mediaQueryHeight = MediaQuery.of(context).size.height;
-    final mediaQueryWidth = MediaQuery.of(context).size.width;
-
-    return Scaffold(
-      body: Container(
-        height: mediaQueryHeight * 0.7,
-        width: mediaQueryWidth,
-        child: Image.asset(
-          'assets/images/illustration.png',
-          fit: BoxFit.cover,
-        ),
-      ),
     );
   }
 }
