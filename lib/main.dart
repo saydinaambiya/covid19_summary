@@ -1,3 +1,4 @@
+import 'package:covid19_app/screens/home.dart';
 import 'package:covid19_app/screens/onboarding.dart';
 import 'package:flutter/material.dart';
 
@@ -10,9 +11,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      initialRoute: '/onboarding',
+      routes: {
+        '/onboarding': (context) => const OnboardingPage(),
+        '/home': (context) => const HomePage(),
+      },
       debugShowCheckedModeBanner: false,
-      home: OnboardingPage(),
     );
   }
 }

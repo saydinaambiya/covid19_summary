@@ -71,7 +71,9 @@ class OnboardingPage extends StatelessWidget {
                     height: 60,
                     minWidth: 60,
                     color: purpleColor,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/home');
+                    },
                     child: Icon(
                       FontAwesomeIcons.arrowRight,
                       color: whiteColor,
