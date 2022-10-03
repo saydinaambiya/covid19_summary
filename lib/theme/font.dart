@@ -7,12 +7,12 @@ TextStyle titleFont = GoogleFonts.questrial(
 );
 
 TextStyle subtitleFont = GoogleFonts.poppins(
-  fontSize: 16,
+  fontSize: 14,
   fontWeight: FontWeight.normal,
 );
 
 TextStyle bodyFont = GoogleFonts.poppins(
-  fontSize: 15,
+  fontSize: 14,
   fontWeight: FontWeight.normal,
 );
 
@@ -31,7 +31,7 @@ TextStyle titleCard(Color color) {
 
 TextStyle valueCard(Color color) {
   return GoogleFonts.poppins(
-    fontSize: 25,
+    fontSize: 22,
     fontWeight: FontWeight.w700,
     color: color,
   );

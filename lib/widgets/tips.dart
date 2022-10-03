@@ -14,7 +14,7 @@ class TipsCard extends StatelessWidget {
       children: [
         const SizedBox(height: 20),
         Container(
-          height: mediaQueryHeight * 0.2,
+          height: mediaQueryHeight * 0.22,
           width: double.infinity,
           decoration: BoxDecoration(
             color: blueSoftColor,
@@ -22,7 +22,7 @@ class TipsCard extends StatelessWidget {
           ),
           child: Padding(
             padding: const EdgeInsets.only(
-              left: 15,
+              left: 10,
               right: 20,
               top: 5,
             ),
@@ -41,7 +41,7 @@ class TipsCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Know safety tips and',
+                        'Know safety tips &',
                         style: bodyFont,
                       ),
                       Text(
