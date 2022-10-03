@@ -1,5 +1,5 @@
-import 'package:covid19_app/theme/color_style.dart';
-import 'package:covid19_app/theme/font_style.dart';
+import 'package:covid19_app/theme/color.dart';
+import 'package:covid19_app/theme/font.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

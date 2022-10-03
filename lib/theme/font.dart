@@ -20,3 +20,19 @@ TextStyle semiboldFont = GoogleFonts.poppins(
   fontSize: 15,
   fontWeight: FontWeight.w700,
 );
+
+TextStyle titleCard(Color color) {
+  return GoogleFonts.poppins(
+    fontSize: 17,
+    fontWeight: FontWeight.w500,
+    color: color,
+  );
+}
+
+TextStyle valueCard(Color color) {
+  return GoogleFonts.poppins(
+    fontSize: 25,
+    fontWeight: FontWeight.w700,
+    color: color,
+  );
+}
